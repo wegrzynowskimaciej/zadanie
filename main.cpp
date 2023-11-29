@@ -1,6 +1,12 @@
 #include <iostream>
 
+int Pomnoz(int a, int b)
+{
+    return a * b;
+}
+
 int main() {
     std::cout << "Hello, World!" << std::endl;
+    std::cout << "W drugim branchu; 2 * 3 = " <<Pomnoz(2,3) << std::endl;
     return 0;
 }
